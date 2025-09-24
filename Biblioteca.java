@@ -29,7 +29,7 @@ public class Biblioteca {
             return;
         }
         for (Livro livroAtual : livros) {
-            System.out.println(livroAtual); // o toString() já mostra o ID
+            System.out.println(livroAtual); 
         }
     }
 

@@ -33,7 +33,7 @@ public final class LivroDigital extends Livro {
     @Override
     public String toString() {
         return super.toString() +
-               "\nFormato do arquivo: " + formatoArquivo +
-               "\nTamanho do arquivo: " + tamanhoMB + " MB";
+            "\nFormato do arquivo: " + formatoArquivo +
+            "\nTamanho do arquivo: " + tamanhoMB + " MB";
     }
 }

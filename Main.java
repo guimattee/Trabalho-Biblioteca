@@ -67,7 +67,7 @@ public class Main {
                         biblioteca.adicionarLivro(new LivroFisico(titulo, autor, ano, paginas,
                                 exemplares, altura, largura, profundidade));
 
-                    } else { // Digital
+                    } else { 
                         String formatoArquivo;
                         do {
                             formatoArquivo = Input.lerString("Formato do arquivo: ");

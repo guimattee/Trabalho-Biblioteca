@@ -3,7 +3,7 @@ public final class LivroFisico extends Livro {
     private double altura, largura, profundidade; // cm
 
     public LivroFisico(String titulo, String autor, int anoPublicacao, int numeroPaginas,
-                       int numeroExemplares, double altura, double largura, double profundidade) {
+            int numeroExemplares, double altura, double largura, double profundidade) {
         super(titulo, autor, anoPublicacao, numeroPaginas);
         this.numeroExemplares = numeroExemplares;
         this.altura = altura;
@@ -51,7 +51,7 @@ public final class LivroFisico extends Livro {
     @Override
     public String toString() {
         return super.toString() +
-               "\nNúmero de exemplares: " + numeroExemplares +
-               "\nDimensões (A×L×P cm): " + altura + "×" + largura + "×" + profundidade;
+            "\nNúmero de exemplares: " + numeroExemplares +
+            "\nDimensões (A-L-P cm): " + altura + "×" + largura + "×" + profundidade;
     }
 }

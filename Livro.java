@@ -1,7 +1,7 @@
 import java.time.Year;
 
 public abstract class Livro {
-    private static int contador = 1; // ID começa em 1
+    private static int contador = 1; 
     private int id;
     private String titulo;
     private String autor;

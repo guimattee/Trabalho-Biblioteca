@@ -16,7 +16,7 @@ public class Input {
             System.out.print(mensagem);
         }
         int valor = sc.nextInt();
-        sc.nextLine(); // limpar buffer
+        sc.nextLine(); 
         return valor;
     }
 
@@ -28,7 +28,7 @@ public class Input {
             System.out.print(mensagem);
         }
         double valor = sc.nextDouble();
-        sc.nextLine(); // limpar buffer
+        sc.nextLine(); 
         return valor;
     }
 }
